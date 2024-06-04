@@ -1,7 +1,7 @@
 {
   "name": "unlux",
   "displayName": "unlux's pack",
-  "description": "some good stuff",
+  "description": "some good stuff, that i have to reinstall every time",
   "publisher": "unlux",
   "version": "0.0.1",
   "engines": {
@@ -10,6 +10,12 @@
   "categories": [
     "Extension Packs"
   ],
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "categories": "Extension Packs",
+  "icon": "images/icon.png",
   "extensionPack": [ 
     "aaron-bond.better-comments", 
     "bbenoist.nix", 
@@ -69,5 +75,10 @@
     "waderyan.gitblame", 
     "wix.vscode-import-cost", 
     "yzhang.markdown-all-in-one"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unlux/vscode-extension-pack.git"
+  },
+  "homepage": "https://github.com/unlux/vscode-extension-pack/blob/master/README.md"
 }
